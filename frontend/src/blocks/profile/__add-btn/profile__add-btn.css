@@ -1,0 +1,29 @@
+.profile__add-btn {
+    width: 150px;
+    height: 50px;
+    background: transparent;
+    align-self: center;
+    margin-left: auto;
+    background-image: url(../../../images/Rectangle.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in;
+    object-fit: cover;
+}
+
+.profile__add-btn:hover {
+    opacity: 0.6;
+}
+
+
+@media screen and (max-width: 1041px) {
+    .profile__add-btn { 
+        width: 282px;
+        margin-left: 0;
+        background-image: url(../../../images/Add-Button.svg);
+        background-size: cover;
+    }
+
+}

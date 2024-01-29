@@ -1,0 +1,17 @@
+.photo-cards__like {
+    width: 22px;
+    height: 19px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    background-image: url(../../../images/Group.svg);
+    background-position: center;
+    align-self: center;
+    box-sizing: content-box;
+    background-repeat: no-repeat;
+    transition: opacity 0.3s ease-in;
+}
+
+.photo-cards__like:hover {
+    opacity: 0.5;
+}
