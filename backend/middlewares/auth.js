@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken');
 // const { UNAUTHORIZED } = require('../utils/constantErrors');
-const { SECRET_KEY } = process.env;
+// const { SECRET_KEY } = process.env;
 const UnauthorizedError = require('../errors/UnauthorizedError');
 
 module.exports = (req, res, next) => {
@@ -15,7 +15,7 @@ module.exports = (req, res, next) => {
   let payload;
 
   try {
-    payload = jwt.verify(token, SECRET_KEY);
+    payload = jwt.verify(token, 'some-secret-key');
   } catch (err) {
     next(new UnauthorizedError('Необходима авторизация'));
     return;
