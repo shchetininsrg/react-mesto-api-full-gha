@@ -1,4 +1,4 @@
-const url = "http://localhost:3000";
+const url = "https://api.schetininsrg.nomoredomainsmonster.ru/";
 const headers = {
   "Content-Type": "application/json",
 };
