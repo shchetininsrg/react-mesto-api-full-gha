@@ -1,3 +1,3 @@
 export const configApi = {
-	url: 'https://api.schetininsrg.nomoredomainsmonster.ru/'
+	url: 'https://api.schetininsrg.nomoredomainsmonster.ru'
 }
